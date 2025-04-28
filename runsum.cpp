@@ -13,6 +13,8 @@ int main(){
             nums[0] = nums[0];
         }
     }
-    for (int i = 0; i < nums.size(); i++)
-    std::cout << nums[i] << '\n';
+    
+    for (int i = 0; i < nums.size(); i++){
+        std::cout << nums[i] << '\n';
+    }
 }
